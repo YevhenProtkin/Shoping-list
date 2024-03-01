@@ -25,8 +25,8 @@ class CustomTableViewCell: UITableViewCell {
         contentView.addSubview(circleView)
 
         NSLayoutConstraint.activate([
-            circleView.widthAnchor.constraint(equalToConstant: 20),
-            circleView.heightAnchor.constraint(equalToConstant: 20),
+            circleView.widthAnchor.constraint(equalToConstant: 30),
+            circleView.heightAnchor.constraint(equalToConstant: 30),
             circleView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 15),
             circleView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor)
         ])
