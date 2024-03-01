@@ -48,7 +48,7 @@ class CustomTableViewCell: UITableViewCell {
         nameItemLabel.text = shoppingItem.name
 
         circleView.layer.borderWidth = 2
-        circleView.layer.borderColor = UIColor.gray.cgColor
+        circleView.layer.borderColor = UIColor.blue.cgColor
         circleView.layer.cornerRadius = 10
         circleView.backgroundColor = .clear
 
